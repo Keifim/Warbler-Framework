@@ -37,7 +37,7 @@
   h1 {
     text-align: center; } }
 .content {
-  box-shadow: inset 1px 0 11px 2px whitesmoke; }
+  box-shadow: inset -2px 9px 11px 2px whitesmoke; }
   .content .row:first-child {
     background-color: #0275D8;
     height: 148px; }

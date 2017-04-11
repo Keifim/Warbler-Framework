@@ -1,12 +1,3 @@
 *.DS_Store
 .sass-cache/
 .sass-cache/*
-fonts/Lato-Black.ttf
-fonts/Lato-BlackItalic.ttf
-fonts/Lato-Bold.ttf
-fonts/Lato-BoldItalic.ttf
-fonts/Lato-Hairline.ttf
-fonts/Lato-HairlineItalic.ttf
-fonts/Lato-Italic.ttf
-fonts/Lato-Light.ttf
-fonts/Lato-LightItalic.ttf
