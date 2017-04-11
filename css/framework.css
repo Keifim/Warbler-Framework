@@ -222,13 +222,9 @@ template {
   box-sizing: border-box;
   font-family: 'Lato'; }
 
-html {
-  height: 100%; }
-
 body {
   margin: initial;
-  background-color: white;
-  height: 100%; }
+  background-color: white; }
 
 a {
   text-decoration: none;
@@ -259,9 +255,6 @@ hr {
 .container {
   width: 100%;
   max-width: 1920px; }
-
-.row {
-  padding: 0 2px; }
 
 /*-- cleafix hack -- */
 .row:before,

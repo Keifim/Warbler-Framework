@@ -1,6 +1,4 @@
-.container:first-child{height: 100%;}
-.menu{height: 100%;
-	box-shadow: 1px 0 11px 2px whitesmoke;
+.menu{
 	.row:first-child{display: flex;
     max-height: 37px;
     height: 37px;
@@ -30,7 +28,7 @@
 					padding-left:initial !important;} } } 
 	h1{ text-align: center; } }
 
-.content{
+.content{box-shadow:inset 1px 0 11px 2px whitesmoke;
 	.row:first-child{ background-color:#0275D8; 
 		height: 148px;
 		div{padding-left: 120px;
