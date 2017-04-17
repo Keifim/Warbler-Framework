@@ -5,6 +5,10 @@
 <link rel="stylesheet" type="text/css" href="css/framework.css">
 <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/9.10.0/styles/solarized-light.min.css">
+<script src="https://cdn.jsdelivr.net/highlight.js/9.10.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
 <main class="container">
     <section class="col-1 menu">
         <div class="row">
@@ -47,7 +51,7 @@
 
                 <h1><small>Stacked-to-horizontal</small></h1>
                 <p>Cras condimentum nulla sit amet euismod convallis. Vivamus vitae risus dui. Aliquam placerat ligula sit amet pellentesque porttitor. Nullam et suscipit erat, id venenatis enim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-
+                
                 <section class="container col">
                     <div class="row">
                         <div class="col-1">.col-1</div>
@@ -69,31 +73,115 @@
                     <div class="row">
                         <div class="col-6">.col-6</div>
                     </div>
-<xmp>
-<section class="container">
-    <div class="row">
-        <div class="col-1">.col-1</div>
-        <div class="col-1">.col-1</div>
-        <div class="col-1">.col-1</div>
-        <div class="col-1">.col-1</div>
-        <div class="col-1">.col-1</div>
-        <div class="col-1">.col-1</div>
-    </div>
-    <div class="row">
-        <div class="col-2">.col-2</div>
-        <div class="col-2">.col-2</div>
-        <div class="col-2">.col-2</div>
-    </div>
-    <div class="row">
-        <div class="col-3">.col-3</div>
-        <div class="col-3">.col-3</div>
-    </div>
-    <div class="row">
-        <div class="col-6">.col-6</div>
-    </div>
-</section>
-</xmp>
-                </section>           
+<pre><code class="html">&lt;section class="container"&gt;
+    &lt;div class="row"&gt;
+        &lt;div class="col-1"&gt;.col-1&lt;/div&gt;
+        &lt;div class="col-1"&gt;.col-1&lt;/div&gt;
+        &lt;div class="col-1"&gt;.col-1&lt;/div&gt;
+        &lt;div class="col-1"&gt;.col-1&lt;/div&gt;
+        &lt;div class="col-1"&gt;.col-1&lt;/div&gt;
+        &lt;div class="col-1"&gt;.col-1&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="row"&gt;
+        &lt;div class="col-2"&gt;.col-2&lt;/div&gt;
+        &lt;div class="col-2"&gt;.col-2&lt;/div&gt;
+        &lt;div class="col-2"&gt;.col-2&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="row"&gt;
+        &lt;div class="col-3"&gt;.col-3&lt;/div&gt;
+        &lt;div class="col-3"&gt;.col-3&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="row"&gt;
+        &lt;div class="col-6"&gt;.col-6&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;</code></pre>
+                </section>
+                
+                <h1>Typography</h1>
+                <hr>
+
+                <h1><small>Headings</small></h1>
+                <p>Cras condimentum nulla sit amet euismod convallis. Vivamus vitae risus dui.
+
+                <div class="container">
+                    <div class="row example nbb">
+                        <h3 style="margin: 2px 0 8px"><small>Example</small></h3>
+                        <h1>h1. heading</h1>
+                        <hr>
+                        <h2>h2. heading</h2>
+                        <hr>
+                        <h3>h3. heading</h3>
+                        <hr>
+                        <h4>h4. heading</h4>
+                        <hr>
+                        <h5>h5. heading</h5>
+                        <hr>
+                        <h6>h6. heading</h6>
+                    </div>
+                    <div class='row'>
+<pre class="pre-code"><code class="html">&lt;h1&gt;h1. heading&lt;/h1&gt;
+&lt;h2&gt;h2. heading&lt;/h2&gt;
+&lt;h3&gt;h3. heading&lt;/h3&gt;
+&lt;h4&gt;h4. heading&lt;/h4&gt;
+&lt;h5&gt;h5. heading&lt;/h5&gt;
+&lt;h6&gt;h6. heading&lt;/h6&gt;</code></pre>
+                    </div>
+                </div>
+
+                <p>Quisque ut ultrices eros, vitae commodo nibh.
+
+                <div class="container">
+                    <div class="row example nbb">
+                        <h3 style="margin: 2px 0 8px"><small>Example</small></h3>
+                        <h1>h1. heading <small>small text</small></h1>
+                        <hr>
+                        <h2>h2. heading <small>small text</small></h2>
+                        <hr>
+                        <h3>h3. heading <small>small text</small></h3>
+                        <hr>
+                        <h4>h4. heading <small>small text</small></h4>
+                        <hr>
+                        <h5>h5. heading <small>small text</small></h5>
+                        <hr>
+                        <h6>h6. heading <small>small text</small></h6>
+                    </div>
+                    <div class='row'>
+<pre class="pre-code"><code class="html">&lt;h1&gt;h1. heading &lt;small&gt;small text&lt;/small&gt;&lt;/h1&gt;
+&lt;h2&gt;h2. heading &lt;small&gt;small text&lt;/small&gt;&lt;/h2&gt;
+&lt;h3&gt;h3. heading &lt;small&gt;small text&lt;/small&gt;&lt;/h3&gt;
+&lt;h4&gt;h4. heading &lt;small&gt;small text&lt;/small&gt;&lt;/h4&gt;
+&lt;h5&gt;h5. heading &lt;small&gt;small text&lt;/small&gt;&lt;/h5&gt;
+&lt;h6&gt;h6. heading &lt;small&gt;small text&lt;/small&gt;&lt;/h6&gt;</code></pre>
+                    </div>
+                </div>
+
+                <h1><small>Marked text</small></h1>
+                <p>Aenean eget sapien eu neque gravida varius.
+
+                <div class="container">
+                    <div class="row example nbb">
+                        <h3 style="margin: 2px 0 8px"><small>Example</small></h3>
+                        Phasellus porta <mark>commodo</mark> diam, vitae congue orci.
+                    </div>
+                    <div class="row">
+<pre class="pre-code"><code class="html">Phasellus porta &lt;mark&gt;commodo&lt;/mark&gt; diam, vitae congue orci.</code>
+                    </div>
+                </div>
+
+                <h1><small>Blockquote</small></h1>
+                <p>Fusce gravida sed quam ut imperdiet.
+
+                <div class="container">
+                    <div class="row example nbb">
+                        <h3 style="margin: 2px 0 8px"><small>Example</small></h3>
+                        <blockquote>
+                            <p>Etiam nec augue rhoncus, tincidunt nibh congue, dictum metus.
+                            <footer>id ornare tellus gravida ut</footer>
+                        </blockquote>
+                    </div>
+                    
+                </div>
+
             </div>
             <div class="col-1 variants">
                 <ul>
