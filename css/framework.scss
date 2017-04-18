@@ -324,13 +324,19 @@ mark, .mark{background-color: #fff5da;}
   border-bottom-left-radius: initial;}*/
 
 .pre-code{margin: initial;
-  code{border-top: initial;
+  code{/*border-top: initial;*/
     border-top-right-radius: initial;
     border-top-left-radius: initial;} }
 
 .nbb{border-bottom-right-radius: initial;
   border-bottom-left-radius: initial;
   border-bottom: initial;}
-.ntb{border-bottom-right-radius: initial;
-  border-bottom-left-radius: initial;
+.ntb{border-top-right-radius: initial;
+  border-top-left-radius: initial;
   border-top: initial;}
+
+.list-disc{margin: 0 0 0 19px;
+  &>li{ list-style-type: disc; } }
+.list-inline{
+  &>li{display: inline-table;
+    margin-right: 11px;} }

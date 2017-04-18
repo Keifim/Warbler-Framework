@@ -376,7 +376,7 @@ mark, .mark {
 .pre-code {
   margin: initial; }
   .pre-code code {
-    border-top: initial;
+    /*border-top: initial;*/
     border-top-right-radius: initial;
     border-top-left-radius: initial; }
 
@@ -386,8 +386,17 @@ mark, .mark {
   border-bottom: initial; }
 
 .ntb {
-  border-bottom-right-radius: initial;
-  border-bottom-left-radius: initial;
+  border-top-right-radius: initial;
+  border-top-left-radius: initial;
   border-top: initial; }
+
+.list-disc {
+  margin: 0 0 0 19px; }
+  .list-disc > li {
+    list-style-type: disc; }
+
+.list-inline > li {
+  display: inline-table;
+  margin-right: 11px; }
 
 /*# sourceMappingURL=framework.css.map */
