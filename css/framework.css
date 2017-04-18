@@ -269,6 +269,21 @@ blockquote {
     blockquote footer:before {
       content: '\2014 \00A0'; }
 
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%; }
+  table thead {
+    border-bottom: 1px solid #bfbfbf; }
+    table thead tr th {
+      padding: 6px;
+      text-align: left; }
+  table tbody tr {
+    border-bottom: 0.5px solid #f9f9f9; }
+    table tbody tr td {
+      padding: 6px;
+      text-align: left; }
+
 .container {
   width: 100%;
   max-width: 1920px; }
@@ -367,12 +382,6 @@ mark, .mark {
   border: 1px double #f1f1f1;
   padding: 2.5px 9px; }
 
-/*.example-non-bottom{background-color: #fdfeff;
-  border-radius: 4px;
-  border: 1px double #f1f1f1;
-  padding: 2.5px 9px;
-  border-bottom-right-radius: initial;
-  border-bottom-left-radius: initial;}*/
 .pre-code {
   margin: initial; }
   .pre-code code {

@@ -58,3 +58,8 @@
 						color: #6b96ff;
 						cursor: pointer;
 						&:hover{ color:#4b6ec1; } } } } } } }
+
+#downloads{ li{ min-height: 200px;
+	position: relative; 
+	div{ position: absolute;
+		bottom: 0; } } }

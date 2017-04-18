@@ -73,4 +73,11 @@
         .content .indhold .variants ul li span:hover {
           color: #4b6ec1; }
 
+#downloads li {
+  min-height: 200px;
+  position: relative; }
+  #downloads li div {
+    position: absolute;
+    bottom: 0; }
+
 /*# sourceMappingURL=stylesheet.css.map */
