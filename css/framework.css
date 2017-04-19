@@ -284,6 +284,24 @@ table {
       padding: 6px;
       text-align: left; }
 
+form label {
+  text-transform: capitalize;
+  font-size: 14px; }
+form input {
+  width: 100%;
+  margin: 4px 0;
+  padding: 2px;
+  border-radius: 3.5px;
+  border: 1px solid #bbbbbb;
+  line-height: 16px; }
+form button {
+  padding: 6px;
+  line-height: 10px;
+  background: initial;
+  border: 1px solid #bbbbbb;
+  font-weight: bold;
+  border-radius: 3.5px; }
+
 .container {
   width: 100%;
   max-width: 1920px; }
