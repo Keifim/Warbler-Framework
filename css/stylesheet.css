@@ -16,7 +16,8 @@
     line-height: 37px; }
     .menu .row:first-child .col-6:nth-child(2) span {
       color: white;
-      font-weight: 800; }
+      font-weight: 800;
+      font-size: 12.5px; }
 .menu .row:nth-child(2) {
   top: 38.5px;
   position: fixed;
