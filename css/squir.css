@@ -464,4 +464,22 @@ mark, .mark {
   border: initial;
   color: #4b6ec1; }
 
+.txt-muted {
+  color: #909090; }
+
+.txt-primary {
+  color: #3296ec; }
+
+.txt-success {
+  color: #1ae029; }
+
+.txt-info {
+  color: #3673e2; }
+
+.txt-warning {
+  color: #f37747; }
+
+.txt-danger {
+  color: #ea2222; }
+
 /*# sourceMappingURL=squir.css.map */
