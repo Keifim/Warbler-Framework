@@ -31,14 +31,6 @@
       .menu .row:nth-child(2) ul li a div:hover {
         background-color: #f9f9f9; }
 
-/*@media all and (max-width:800px){
-	.menu{height: 204px;
-		text-align: center;}
-		.content{
-			.row:first-child{
-				div{ text-align:center;
-					padding-left:initial !important;} } } 
-	h1{ text-align: center; } }*/
 .content {
   box-shadow: inset -2px 9px 11px 2px whitesmoke; }
   .content .header {

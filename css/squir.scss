@@ -341,7 +341,7 @@ mark, .mark{background-color: #fff5da;}
 .example{background-color: #fdfeff;
   border-radius: 4px;
   border: 1px double #f1f1f1;
-  padding: 2.5px 9px;}
+  padding: 2.5px 9px 12.5px;}
 
 .pre-code{margin: initial;
   code{/*border-top: initial;*/
@@ -359,4 +359,35 @@ mark, .mark{background-color: #fff5da;}
   &>li{ list-style-type: disc; } }
 .list-inline{
   &>li{display: inline-table;
-    margin-right: 11px;} }
+    margin-right: 6px;} }
+
+[class*='btn-']{padding: 6px;
+  line-height: 15px;
+  font-weight: bold;
+  border-radius: 3.5px;
+  font-size: 12px;
+  color: white;}
+
+.btn-default{
+  background-color: initial;
+  border: 1px solid #bbbbbb;
+  color: black;}
+.btn-primary{
+  background-color: #3296ec;
+  border: 1px solid #828892;}
+.btn-success{
+  background-color: #1ae029;
+  border: 1px solid #38cc6c;}
+.btn-info{
+  background-color: #3673e2;
+  border: 1px solid #377992;}
+.btn-warning{
+  background-color: #f37747;
+  border: 1px solid #d47373;}
+.btn-danger{
+  background-color: #ea2222;
+  border: 1px solid #ea8787;}
+.btn-link{
+  background-color: initial;
+  border: initial;
+  color: #4b6ec1;}
