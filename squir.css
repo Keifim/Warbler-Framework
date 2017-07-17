@@ -217,7 +217,18 @@ template {
 /*!=!*/
 @font-face {
   font-family: 'Lato', sans-serif;
-  src: url("../fonts/Lato-Regular.ttf") format("truetype"); }
+  src: url("Lato-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Chivo';
+  src: url("Chivo-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Chivo';
+  src: url("Chivo-Bold.ttf") format("truetype");
+  font-weight: bold; }
+@font-face {
+  font-family: 'Chivo';
+  src: url("Chivo-Light.ttf") format("truetype");
+  font-weight: lighter; }
 * {
   box-sizing: border-box;
   font-family: 'Lato'; }
@@ -302,13 +313,20 @@ form button {
   font-weight: bold;
   border-radius: 3.5px; }
 
+:root {
+  font-size: 100%; }
+
+html {
+  font-size: 1rem; }
+
 .container {
   width: 100%;
-  max-width: 1920px; }
+  max-width: 1920px;
+  position: relative; }
 
 /*-- cleafix hack -- */
-.row:before,
-.row:after {
+row, .row:before,
+row, .row:after {
   content: "";
   display: table;
   clear: both; }
@@ -384,12 +402,15 @@ form button {
     width: 100%; } }
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-weight: 600; }
+  font-weight: 600;
+  font-family: Chivo; }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small,
 .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small {
   font-weight: 400;
-  color: #ababab; }
+  color: #606c76;
+  font-family: Chivo;
+  font-weight: 200; }
 
 mark, .mark {
   background-color: #fff5da; }
