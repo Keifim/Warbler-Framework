@@ -441,6 +441,76 @@ a {
   a:hover {
     color: #3283dc; }
 
+blockquote {
+  padding: 4px 6px;
+  margin: 10px 15px;
+  border-left: 5px solid #eee; }
+  blockquote footer {
+    color: #ababab;
+    font-size: 0.88em; }
+    blockquote footer:before {
+      content: '\2014 \00A0'; }
+
+code {
+  background-color: rgba(54, 171, 255, 0.73);
+  color: #eaeefd;
+  padding: 1px 3px;
+  border-radius: 1.5px; }
+
+pre {
+  background-color: #fafbff !important;
+  padding: 0.5em;
+  color: #657b83;
+  border-radius: 4px;
+  border: 1px double #f1f1f1;
+  white-space: pre-line; }
+
+span {
+  font-family: Lato; }
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%; }
+  table thead {
+    border-bottom: 1px solid #bfbfbf; }
+    table thead tr th {
+      padding: 6px;
+      text-align: left;
+      font-family: Lato; }
+  table tbody tr {
+    border-bottom: 0.5px solid #f9f9f9; }
+    table tbody tr td {
+      padding: 6px;
+      text-align: left;
+      font-family: Lato; }
+
+form label {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 600; }
+form input {
+  width: 100%;
+  margin: 4px 0;
+  padding: 2px;
+  border-radius: 3.5px;
+  border: 1px solid #bbbbbb;
+  line-height: 16px;
+  font-family: Lato; }
+form button {
+  padding: 6px;
+  line-height: 10px;
+  background: initial;
+  border: 1px solid #bbbbbb;
+  font-weight: bold;
+  border-radius: 3.5px;
+  font-family: Chivo; }
+
+img {
+  max-width: 100% !important;
+  max-height: 100% !important; }
+
 .container {
   width: 100%;
   max-width: 1920px;
@@ -459,12 +529,25 @@ row, .row:after {
   font-weight: bold;
   border-radius: 3.5px;
   font-size: 12px;
-  cursor: pointer; }
+  cursor: pointer;
+  color: white; }
 
 .btn-default {
   background-color: initial;
   border: 1px solid #bbbbbb;
   color: black; }
+
+.btn-blue {
+  background-color: #1aa0ff;
+  border: 1px solid #669dcc; }
+
+.btn-red {
+  background-color: #f92341;
+  border: 1px solid #da5656; }
+
+.btn-green {
+  background-color: #17d451;
+  border: 1px solid #4dce23; }
 
 [class*='col-'] {
   float: left;

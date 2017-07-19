@@ -22,10 +22,24 @@ header{ min-height: 557px;
 main{max-width: 60rem;
   margin: auto;
   .container{
-    .row{ padding-bottom: 4.5px;
-      [class*='col-']{ background-color: #e8e8e8;
-        color: #4598ef;
-        border: 1px solid #9c9c9c;
-        padding: 2px;
-        text-align: center;
-        margin-bottom: 8px; } } } }
+    .row{ padding-bottom: 2px;
+      margin-bottom: 2px; } } }
+
+.example{ border: 1px solid #9c9c9c;
+  padding: 12px;
+  border-top-left-radius: 4px;
+  border-bottom: unset;
+  border-right: unset;
+  .row{ border: 1px solid #9c9c9c;
+    padding: 6px;
+    border-top-left-radius: 2px;
+    border-bottom: unset;
+    border-right: unset; }
+  [class*='col-']{ background-color: #e8e8e8;
+          color: #4598ef;
+          border: 1px solid #9c9c9c;
+          padding: 2px;
+          text-align: center;
+          margin-bottom: 8px; }
+  p{ color: #4f97ed;
+    margin: 0 0 5.5px 0; } }
