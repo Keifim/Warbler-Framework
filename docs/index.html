@@ -2,60 +2,144 @@
 <title>Warbler Framework</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="icon" href="favicon.png" type="image/x-icon"/>
+<link rel="stylesheet" type="text/css" href="warbler.min.css">
+<link rel="stylesheet" type="text/css" href="stylesheet.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/9.10.0/styles/solarized-light.min.css">
+<script src="https://cdn.jsdelivr.net/highlight.js/9.10.0/highlight.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="smooth-scrolling.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 <header>
   <section class="container">
     <div id='logo'><div><span>v√</span></div></div>
     <br>
     <h1><small>Warbler.css</small></h1>
     <h3><small>CSS framework</small></h3>
-    <h1 style="color: #E24328;">Under Development</h1>
   </section>
 </header>
-<style type="text/css">
-  @font-face {font-family: 'Chivo';
-    src: url('Chivo-Bold.ttf') format('truetype');
-    font-weight: bold;}
-  @font-face {font-family: 'Chivo';
-    src: url('Chivo-Light.ttf') format('truetype');
-    font-weight: lighter;}
-  :root {font-size: 100%;}
-  *{box-sizing: border-box;}  
-  html{line-height: 1.15;}
-  body{ margin: initial;}
-  header .container {
-    text-align: center;
-    padding-top: 134px; }
-    header .container #logo {
-      font-size: 4rem;
-      border: 2px solid #00d0ff;
-      background-color: #13deff;
-      padding: 0.5rem;
-      border-radius: 17px;
-      width: 190px;
-      height: 190px;
-      line-height: 190px;
-      margin: auto;
-      transform: rotate(45deg); }
-      header .container #logo div {
-        transform: rotate(-45deg);
-        width: 100%;
-        height: 100%; }
-        header .container #logo div span {
-          color: whitesmoke;
-          font-family: Chivo;
-          font-size: 8.4rem; }
-  .container {
-    max-width: 80rem;
-    margin: auto; 
-    width: 100%;
-    max-width: 1920px;
-    position: relative;}
-    h1{font-size: 2em;
-      margin: 0.67em 0;}
-    h1, h3{font-weight: 600;
-    font-family: Chivo;}
-    small{color: #606c76;
-      font-family: Chivo;
-      font-weight: 200;
-      font-size: 80%;}
-</style>
+<main>
+    <section class="container">
+      <div class="row">
+        <h1><small>Download</small></h1>
+        <a href="warbler.min.css" download class="btn-default">Minified</a>
+        <del href="" class="btn-default">Source</del>
+        <p>Includes Normalize.css for cross-browser rendering.
+      </div>
+      <hr>
+      <div class="row">
+        <h1><small>Grid System</small></h1>
+        <p></p>
+        <section class="container example">
+          <p>.container</p>
+          <div class="row">
+            <p>.row</p>
+            <div class="col-1">.col-1</div>
+            <div class="col-1">.col-1</div>
+            <div class="col-1">.col-1</div>
+            <div class="col-1">.col-1</div>
+            <div class="col-1">.col-1</div>
+            <div class="col-1">.col-1</div>
+            <div class="col-1">.col-1</div>
+            <div class="col-1">.col-1</div>
+          </div>
+          <div class="row">
+            <p>.row</p>
+            <div class="col-4">.col-4</div>
+            <div class="col-2">.col-2</div>
+            <div class="col-2">.col-2</div>
+          </div>
+          <div class="row">
+            <p>.row</p>
+            <div class="col-3">.col-3</div>
+            <div class="col-5">.col-5</div>
+          </div>
+          <div class="row">
+            <p>.row</p>
+            <div class="col-8">.col-8</div>
+          </div>
+        </section>
+      </div>
+      <hr>
+      <div class="row">
+        <h1><small>Typography</small></h1>
+        <h2><small>Headings</small></h2>
+        <p></p>
+        <h1>h1 Heading. <small>small h1 Heading</small></h1>
+        <h2>h2 Heading. <small>small h2 Heading</small></h2>
+        <h3>h3 Heading. <small>small h3 Heading</small></h3>
+        <h4>h4 Heading. <small>small h4 Heading</small></h4>
+        <h5>h5 Heading. <small>small h5 Heading</small></h5>
+        <h6>h6 Heading. <small>small h6 Heading</small></h6>
+      </div>
+      <div class="row">
+        <h2><small>Basic blockquote</small></h2>
+        <blockquote>Curabitur pellentesque lectus sit amet tristique ultrices.</blockquote>
+        <h3><small>Blockquote with footer</small></h3>
+        <blockquote>Curabitur pellentesque lectus sit amet tristique ultrices.<footer>Vestibulum posuere et dolor ac porttitor.</footer></blockquote>
+      </div>
+      <div class="row">
+        <h2><small>Code</small></h2>
+        <p></p>
+        <span>&lt;code&gt;</span><code>Lorem ipsum</code><span>&lt;/code&gt;</span>
+        <h2><small>Block</small></h2>
+        <p></p>
+        <span>&lt;pre&gt;</span>
+        <pre>Aenean nec urna sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis pretium nisl eu venenatis. Nam in purus dignissim, mattis tortor et, mollis ex. Aenean dapibus scelerisque ornare. Morbi dignissim ullamcorper eros, nec iaculis nisi laoreet ut. Suspendisse finibus vulputate augue et cursus. Curabitur in cursus ex.</pre>
+        <span>&lt;/pre&gt;</span>
+      </div>
+      <hr>
+      <div class="row">
+        <h1><small>Basic table</small></h1>
+        <p></p>
+        <table>
+          <thead>
+            <tr>
+              <th>#
+              <th>Name
+              <th>Password
+              <th>Email
+          </thead>
+          <tbody>
+            <tr>
+              <td>1
+              <td>dolor
+              <td>ultricies
+              <td>sagittis@nisl.in
+            <tr>
+              <td>2
+              <td>pellentesque
+              <td>purus
+              <td>faucibus@leo.id
+            <tr>
+              <td>3
+              <td>euismod
+              <td>placerat
+              <td>hac@hendrerit.Sed
+          </tbody>
+        </table>
+      </div>
+      <hr>
+      <div class="row">
+        <h1><small>Basic form</small></h1>
+        <p></p>
+        <form>
+          <label>Username</label>
+          <input placeholder="username">
+          <label>Passowrd</label>
+          <input placeholder="password" type="password">
+          <button type="submit">Login</button>
+        </form>
+      </div>
+      <hr>
+      <div class="row">
+        <h1><small>Buttons</small></h1>
+        <p></p>
+        <button class="btn-default">btn-default</button>
+        <button class="btn-blue">btn-blue</button>
+        <button class="btn-red">btn-red</button>
+        <button class="btn-green">btn-green</button>
+      </div>
+      <br><br><br>
+    </section>
+</main>
